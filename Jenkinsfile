@@ -5,19 +5,19 @@ pipeline {
     stages {
         stage('Inicio') {
             steps {
-                echo '🚀 Jenkins inició el pipeline'
+                echo 'Jenkins inicio el pipeline'
             }
         }
 
         stage('Prueba') {
             steps {
-                echo '✅ Pipeline ejecutándose correctamente'
+                echo 'Pipeline ejecutandose correctamente'
             }
         }
 
         stage('Finalizado') {
             steps {
-                echo '🎉 Integración continua funcionando'
+                echo 'Integracion continua funcionando'
             }
         }
     }
